@@ -1,4 +1,4 @@
-# anadrop - geração automatiza de script DNS RPZ from url do pdf da Anatel
+# anadrop - geração automatizada de script DNS RPZ from url do pdf da Anatel
 
 - Baixa arquivo pdf da url enviada pela Anatel
 - Extrair as URLS para serem bloqueadas
