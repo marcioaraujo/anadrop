@@ -20,15 +20,18 @@ http://anadrop.mycore.com.br:1984/anadrop
 
 </pre>
 </section>
-- Scrip para colocar no bind [ /etc/bind/scripts/anadrop.sh ]:
 
 <p>
 <section>
    <h3>Conteúdo anadrop.sh:</h3>
    <pre>
+
+- local do script no bind [ /etc/bind/scripts/anadrop.sh ]:
+
 #!/bin/sh
 wget --no-check-certificate --tries=3000 --retry-connrefused --timeout=10 --dns-timeout=8 --wait=7 --waitretry=3 http://anadrop.mycore.com.br:1984/anadrop -O /etc/bind/rpz/db.rpz.zone.hosts
 systemctl restart bind9
+
 </pre>
 </section>
 </p>
