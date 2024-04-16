@@ -1,7 +1,7 @@
-# anadrop - Bloqueio url from Anatel to DNS Bind
+# anadrop - geração automatiza de script DNS RPZ from url do pdf da Anatel
 
 - Baixa arquivo pdf da url enviada pela Anatel
-- Extrai as URLS para serem bloqueadas
+- Extrair as URLS para serem bloqueadas
 - Gerar arqvuivo para DNS bind, para uso do PTZ
 
 <section>
@@ -41,3 +41,5 @@ echo '00 00 \* \* \* root sh /etc/bind/scripts/anadrop.sh' >> /etc/crontab
 </pre>
 </section>
 </p>
+
+_anadrop_ &copy; 2024, Mycore Tecnologia - Released under the MIT License.
