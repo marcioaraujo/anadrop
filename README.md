@@ -13,12 +13,10 @@
 
 - Scrip para colocar no bind [ /etc/bind/scripts/anadrop.sh ]:
 
-`
 #!/bin/sh
-wget http://anadrop.mycore.com.br:1984/anadrop  -O /etc/bind/rpz/db.rpz.zone.hosts
+  wget http://anadrop.mycore.com.br:1984/anadrop  -O /etc/bind/rpz/db.rpz.zone.hosts
+  systemctl restart bind9
 
-systemctl restart bind9
-`
  
 
 - Para colocar servidor DNS para buscar lista atualizada uma vez por dia:
