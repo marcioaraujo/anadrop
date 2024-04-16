@@ -11,9 +11,15 @@
   ./import_from_url.py https://sistemas.anatel.gov.br/anexar-api/publico/anexos/download/5e68ae83f4826fdb20f8f553447008f3
 </pre>
 </section>
-- Para baixar o arquivo DNS pronto para uso:
-  http://anadrop.mycore.com.br:1984/anadrop
 
+<section>
+   <h3>Para baixar o arquivo DNS pronto para uso:</h3>
+   <pre>
+
+http://anadrop.mycore.com.br:1984/anadrop
+
+</pre>
+</section>
 - Scrip para colocar no bind [ /etc/bind/scripts/anadrop.sh ]:
 
 <p>
