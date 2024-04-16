@@ -15,7 +15,7 @@
 
 <p>
 <section>
-   <h2>Conteúdo anadrop.sh</h2>
+   <h1>Conteúdo anadrop.sh</h1>
    <pre>
 
 #!/bin/sh
@@ -28,6 +28,12 @@ systemctl restart bind9
 </p>
 
 <p>
-- Para colocar servidor DNS para buscar lista atualizada uma vez por dia:
-  echo '00 00 \* \* \* root sh /etc/bind/scripts/anadrop.sh' >> /etc/crontab
+<section>
+   <h1>Crontab</h1>
+   <pre>
+
+echo '00 00 \* \* \* root sh /etc/bind/scripts/anadrop.sh' >> /etc/crontab
+
+</pre>
+</section>
 </p>
