@@ -13,6 +13,15 @@
 </section>
 
 <section>
+   <h3>Para rodar localmente:</h3>
+   <pre>
+  Coloque o arquivo PDF baixado da url da Anatel em /anatel
+  cd /anatel
+  ./import_from_file.py arquivo.pdf
+</pre>
+</section>
+
+<section>
    <h3>Para baixar o arquivo DNS pronto para uso:</h3>
    <pre>
 
