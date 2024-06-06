@@ -1,0 +1,9 @@
+python3-full
+PyPDF2
+python3-pypdf
+python3-pypdf2
+python3-requests
+python3-venv
+PyPDF2
+pipx
+requests
